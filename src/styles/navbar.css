@@ -1,4 +1,4 @@
-/* Reset styles */
+/* Reset Styles */
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@
     font-family: Arial, sans-serif;
   }
   
-  /* Navbar container */
+  /* Navbar Container */
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -26,7 +26,7 @@
     font-weight: bold;
   }
   
-  /* Navbar links */
+  /* Navbar Links */
   .nav-links {
     list-style: none;
     display: flex;
