@@ -1,25 +1,17 @@
 const projects = [
     {
-        id: 1,
-        title: "Social Media App",
-        description: "A MERN-based social media platform with authentication and real-time chat.",
-        image: "https://via.placeholder.com/300",
-        link: "https://your-project-link.com"
+      title: "Portfolio Website",
+      description: "A personal portfolio website built using React.",
     },
     {
-        id: 2,
-        title: "E-commerce Website",
-        description: "A fully functional e-commerce platform with payment integration.",
-        image: "https://via.placeholder.com/300",
-        link: "https://your-project-link.com"
+      title: "E-commerce App",
+      description: "An online shopping platform with payment integration.",
     },
     {
-        id: 3,
-        title: "Chat app",
-        description: "A portfolio chatapp website built using React and express.",
-        image: "https://via.placeholder.com/300",
-        link: "https://real-time-message-app-kbej.onrender.com/"
-    }
-];
-
-export default projects;
+      title: "Chat Application",
+      description: "A real-time chat app using Socket.IO and MERN stack.",
+    },
+  ];
+  
+  export default projects;
+  

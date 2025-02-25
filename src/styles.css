@@ -6,7 +6,7 @@
     font-family: Arial, sans-serif;
   }
   
-  /* Navbar Container */
+  /* Navbar */
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -20,13 +20,11 @@
     z-index: 1000;
   }
   
-  /* Logo */
   .nav-logo {
     font-size: 24px;
     font-weight: bold;
   }
   
-  /* Navbar Links */
   .nav-links {
     list-style: none;
     display: flex;
@@ -47,14 +45,12 @@
     color: #f39c12;
   }
   
-  /* Hamburger Menu - Hidden on Desktop */
   .menu-icon {
     font-size: 30px;
     cursor: pointer;
     display: none;
   }
   
-  /* Responsive Navbar for Mobile */
   @media screen and (max-width: 768px) {
     .nav-links {
       display: none;
@@ -78,5 +74,31 @@
     .menu-icon {
       display: block;
     }
+  }
+  
+  /* Page Styles */
+  .home, .about, .projects, .contact {
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .projects .project-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .project-card {
+    background: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+  }
+  
+  .project-card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
   }
   

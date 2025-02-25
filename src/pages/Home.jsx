@@ -1,14 +1,13 @@
 import React from "react";
-import {Link}  from "react-router-dom"
+import "../style.css";
 
-function Home() {
-    return (
-        <div className="container text-center mt-5">
-            <h1 className="display-4">Welcome to MSK Portfolio</h1>
-            <p className="lead">I build high-quality websites & web applications</p>
-            <Link to={"/projects"} className="btn btn-primary">View My Work</Link>
-        </div>
-    );
-}
+const Home = () => {
+  return (
+    <section className="home">
+      <h1>Welcome to My Portfolio</h1>
+      <p>Explore my projects and skills.</p>
+    </section>
+  );
+};
 
 export default Home;
